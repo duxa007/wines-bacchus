@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@500;700&display=swap");
 body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
@@ -133,6 +133,191 @@ body {
 
 .indent {
   padding-bottom: 581px;
+}
+
+.container {
+  background: url("../img/wineglass.png") no-repeat;
+  background-size: cover;
+}
+
+.title {
+  margin: 0;
+  padding: 30px 0 10px 35px;
+  color: #A8BFCC;
+}
+
+.content {
+  margin: 0;
+  padding: 20px 0 10px 35px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  max-width: 305px;
+}
+.content__wave {
+  margin: 0 auto;
+  display: flex;
+}
+
+.wave {
+  margin: 30px 0;
+}
+
+.container__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.box {
+  max-width: 157px;
+  margin-bottom: 25px;
+}
+.box__top {
+  background-color: #2B2B32;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+.box__title {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.box__button {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+}
+.box__main {
+  background-color: #FFFFFF;
+  border-radius: 0 0 15px 15px;
+  padding: 15px 15px 37px 15px;
+}
+.box__text {
+  margin: 0;
+  font-weight: 500;
+}
+
+.tariffs {
+  display: flex;
+}
+
+.card-tariffs {
+  background-color: #FFFFFF;
+  margin: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.card-tariffs__title {
+  color: #852234;
+}
+.card-tariffs__price {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.vinobox-indent {
+  padding-bottom: 100px;
+}
+
+.card-tariffs-big {
+  background-color: #FFFFFF;
+  margin: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-tariffs-big__title {
+  color: #852234;
+  font-size: 24px;
+  padding: 15px 0;
+}
+.card-tariffs-big__text {
+  margin: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.card-tariffs-big__price {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+.card-tariffs-big__payment {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.back {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.confirmation {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px auto;
+  font-weight: 400;
+}
+.confirmation__check {
+  width: 19px;
+  height: 19px;
+  border-radius: 5px;
+  background-color: #DEDEDE;
+}
+.confirmation__text {
+  width: 223px;
+}
+
+.main-grey {
+  background-color: #2B2B32;
+}
+
+.table__header {
+  background: #A8BFCC;
+  border-radius: 15px 15px 0px 0px;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  color: #FFFFFF;
+  margin: 0 20px;
+  font-weight: 500;
+  align-items: center;
+  padding: 0 10px;
+}
+.table__header__dop {
+  text-align: center;
+}
+.table__main {
+  background: #F5F5F5;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  padding: 0 10px;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 10px;
+  justify-items: center;
+}
+
+.dark {
+  background-color: #000000;
+  opacity: 0.7;
+  position: absolute;
+  width: 375px;
+  height: 770px;
+  top: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
