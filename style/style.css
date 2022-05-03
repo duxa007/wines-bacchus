@@ -44,6 +44,20 @@ body {
   padding: 15px 0 0 30px;
   margin: 0;
 }
+.main__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__nav {
+  padding: 15px 15px 0 0;
+  font-weight: 500;
+  color: #999999;
+  cursor: pointer;
+}
+.main__nav:hover {
+  opacity: 80%;
+}
 
 .card {
   background-color: #FFFFFF;
@@ -83,6 +97,18 @@ body {
   padding-right: 25px;
   margin: 0;
 }
+.product__life {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Playfair Display SC", serif;
+  margin: 5px 0;
+}
+.product__price-small {
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+  margin: 5px 0;
+  color: #911432;
+}
 .product__button {
   background-color: #85404C;
   height: 38px;
@@ -110,12 +136,26 @@ body {
   grid-template-columns: 50% 25% 25%;
   margin-top: 12px;
 }
+.product__auction {
+  display: grid;
+  grid-template-columns: 50% 30%;
+  margin-top: 12px;
+}
 .product__text {
   margin: 4px 0;
 }
+.product__like {
+  position: absolute;
+  top: 306px;
+  left: 306px;
+  cursor: pointer;
+}
+.product__like:hover {
+  opacity: 80%;
+}
 
 .long-button {
-  margin: 0 20px;
+  margin: 8px 20px;
   color: #FFFFFF;
   width: 335px;
   background-color: #819AB7;
@@ -128,7 +168,7 @@ body {
   opacity: 80%;
 }
 .long-button__container {
-  padding: 32px 0 197px;
+  padding: 10px 0 197px;
 }
 
 .indent {
@@ -288,7 +328,7 @@ body {
 
 .table__header {
   background: #A8BFCC;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
   display: grid;
   grid-template-columns: 50% 25% 25%;
   color: #FFFFFF;
@@ -318,6 +358,171 @@ body {
   width: 375px;
   height: 770px;
   top: 70px;
+}
+
+.box-img {
+  position: absolute;
+  top: 132px;
+  left: 80px;
+}
+
+.window {
+  width: 325px;
+  position: absolute;
+  top: 184px;
+  left: 25px;
+  text-align: center;
+}
+.window__top {
+  background-color: #832234;
+  height: 86px;
+  border-radius: 300px 300px 0 0;
+}
+.window__top-img {
+  position: absolute;
+  top: 45px;
+  left: 285px;
+  cursor: pointer;
+}
+.window__top-img:hover {
+  opacity: 80%;
+}
+.window__bottom {
+  background: url("../img/bottles.png") #FFFFFF no-repeat;
+  text-align: center;
+  border: #FFFFFF solid 30px;
+  background-size: contain;
+}
+.window__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 43px 0 10px;
+}
+.window__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 38px;
+}
+.window__content-top {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 260px;
+}
+.window__content-bottom {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 10px auto;
+  max-width: 260px;
+}
+
+.long-button-red {
+  margin: 5px 0;
+  color: #FFFFFF;
+  width: 265px;
+  background-color: #852234;
+  height: 38px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.long-button-red__img {
+  position: absolute;
+  top: 257px;
+  left: 37px;
+  cursor: pointer;
+}
+.long-button-red__img:hover {
+  opacity: 80%;
+}
+
+.long-button-green {
+  margin: 5px 0;
+  color: #FFFFFF;
+  width: 265px;
+  background-color: #4B964C;
+  height: 38px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.long-button-blue {
+  margin: 5px 0;
+  color: #FFFFFF;
+  width: 265px;
+  background-color: #819AB7;
+  height: 38px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.level {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto;
+  justify-items: center;
+}
+.level__column {
+  text-align: center;
+}
+.level__title {
+  font-size: 16px;
+  color: #FFFFFF;
+  max-width: 50px;
+}
+
+.rang__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 15px;
+  grid-gap: 15px;
+  padding: 0 15px;
+}
+.rang__box {
+  background-color: #FFFFFF;
+  width: 105px;
+  height: 92px;
+  border-radius: 15px;
+  text-align: center;
+}
+.rang__box-grey {
+  background-color: #D6CEC8;
+  width: 105px;
+  height: 92px;
+  border-radius: 15px;
+  text-align: center;
+}
+.rang__box-img {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.rang__box-img-last {
+  margin: 0;
+}
+
+.empty {
+  padding-bottom: 467px;
+}
+
+.open-menu {
+  position: absolute;
+  top: 130px;
+  max-width: 335px;
+}
+
+.button-style:hover {
+  background-color: #852234;
 }
 
 /*# sourceMappingURL=style.css.map */
