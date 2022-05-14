@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wines Bacchus</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -21,21 +22,25 @@
     </nav>
 </header>
 <div class="main">
-    <div class="container">
-        <p class="content">&#8249;<a class="back" href="#*">Back</a></p>
-        <div class="card-tariffs-big">
-            <p class="card-tariffs-big__title">1 MONTH</p>
-            <p class="card-tariffs-big__text">Тариф “Любитель”</p>
-            <p class="card-tariffs-big__text">Отличный выбор для дегустатора.</p>
-            <div class="confirmation">
-                <div class="confirmation__check"></div>
-                <div class="confirmation__text">Нажимая кнопку <оплатить>, я подтверждаю что ознакомился и принимаю <a class="confirmation__agreement" href="#*">условия Соглашения</a> </div>
-            </div>
-            <p class="card-tariffs-big__payment">К оплате <span class="card-tariffs__price">€10</span></p>
-            <button class="product__button">buy</button>
-        </div>
-        <div class="vinobox-indent"></div>
+    <div class="main__block">
+        <H1 class="main__header">Аукцион</H1>
+        <p class="main__nav">По умолчанию &#9660</p>
     </div>
+        <button class="long-button">Меню &#9660</button>
+    <div class="card">
+        <div><img class="card__img " src="img/product3.png"></div>
+        <div class="card__product">
+            <p class="product__name ">Tio pepe palomino fino muy seco</p>
+            <div class="product__auction">
+                <p class="product__text">Окончание торгов</p>
+                <p class="product__text">Текущая цена</p>
+                <p class="product__life">25.05.23</p>
+                <p class="product__price-small">€10</p>
+                <a href="#*"><img class="product__like" src="svg/like.svg"></a>
+            </div>
+        </div>
+    </div>
+    <div class="empty"></div>
 </div>
 </body>
 </html>
