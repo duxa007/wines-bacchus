@@ -1,0 +1,20 @@
+{
+  "name": "wines-bacchus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sass --watch sass:style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxa007/wines-bacchus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duxa007/wines-bacchus/issues"
+  },
+  "homepage": "https://github.com/duxa007/wines-bacchus#readme"
+}
